@@ -1,0 +1,21 @@
+body {
+    font: normal 16px Arial, Verdana, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+/*
+TEXT-INDENT é para a pequena margem
+antes de cada parágrafo.
+*/
+
+/*
+TEXT-ALIGN pode ser JUSTIFY, CENTER, RIGHT, LEFT.
+*/

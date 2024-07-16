@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudios</title>
+</head>
+
+<body>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Exemplficando como reproduzir áudios em um site.</p>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audios/like-it-loud-dyalla.mp3" type="audio/mpeg">
+        <p>Seu navegador não conseguiu reproduzir o áudio. <a href="audios/like-it-loud-dyalla.mp3">Clique aqui para baixar o arquivo.</a></p>
+    </audio>
+    <hr>
+    <p>Evitar o preload AUTO, pois carrega todo o áudio.</p>
+    <p>O preload METADATA carrega só algumas informações.</p>
+    <p>O preload NONE não carrega nenhuma informação.</p>
+    <p>Há outros argumentos para o PRELOAD.</p>
+    <p>Podemos colocar áudios tipo MP3, OGG e WAV</p>
+    <p>Os áudios são sempre carregados na ordem de cima para baixo.</p>
+    <p>AUTOPLAY se quizermos que o áudio inicie com o site.</p>
+    <p>LOOP se quizermos que continue sempre reproduzindo.</p>
+    <p>Evitar áudios no formato WAV, pois são muito pesados.</p>
+
+</body>
+
+</html>

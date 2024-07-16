@@ -1,0 +1,29 @@
+div {
+    display: inline-block;
+    background-color: deepskyblue;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: crimson;
+}
+
+/*
+o BORDER está escrito como shorthand: largura, tipo e cor.
+o DISPLAY INLINE BLOCK é para alinhar os blocos na horizontal.
+*/
+
+/*
+PSEUDO-CLASSES - estão relacionadas a um elemento ou a uma classe.
+A um estado de um determinado elemento. Ex.: se está marcado ou vazio,
+habilitado etc.
+: (dois pontos) indicam uma pseudo-classe.
+*/
+
+/*
+HOVER significa que quando passar o mouse por cima de algo
+ele muda de estado (por exemplo: cor)
+*/

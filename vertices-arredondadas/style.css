@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+article#arredondar {
+    background-color: rgb(195, 176, 212);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+div#circulo {
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    background-color: gold;
+    border-radius: 50%;
+}

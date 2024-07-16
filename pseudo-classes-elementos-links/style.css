@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Este primeiro "a" é a configuração genérica
+dos links. Os outros abaixo sobrepõem-se.*/
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Abaixo, alguns exemplos de PSEUDO CLASSES.*/
+
+a:visited {
+    color: darkred;
+}
+/* quando visitado muda a cor */
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+/* quando passa o mouse em cima, fica preto e sublinhado */
+
+a:active {
+    color: coral;
+}
+/* quando clica em cima (sem soltar o clique), fica cor coral */
+
+a::after {
+    content: ' [link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgoldenrod;
+}
+/* 
+:(dois pontos) = pseudo classes
+::(dois pontos - dois pontos) = pseudo elementos
+No exemplo acima AFTER, estamos indicando que é
+para mostrar, após o link, a palavra LINK.
+*/
+
+/*
+SELETORES PERSONALIZADOS
+#  =  id
+.  =  class
+:  =  pseudo-class
+:: =  pseudo-element
+>  =  children (filho)
+*/
+

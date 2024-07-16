@@ -1,0 +1,60 @@
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: darkred;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    color: blue;
+}
+
+/* No primeiro exemplo solicitei, em primeiro lugar, a fonte ARIAL.
+Se não for possível, buscará a segunda opção, e não econtrando esta
+tentará a última opção.
+
+Se usarmos: font-family: sans-serif apenas, será procurado qualquer
+fonte sem serifa. Se usarmos font-family: serif apenas, será
+procurado qualquer fonte com serifa. Se monospace, será procurado
+qualquer fonte monoespaçada. Isto é usado porque em alguns tipos de
+aparelhos possuem poucas fontes. */
+
+/*
+Fontes:
+Medidas Absolutas
+cm (centímetro) mm (milímetro) in (polegada) px (pixel) pt (ponto) pc (pyca/páica)
+Quando utilizamos uma dessas medidas acima pode ocorrer que o aparelho reprodutor
+do texto não defina exatamente o que queremos.
+Nas medidas absolutas o PX é ainda o mais indicado.
+
+Medidas Relativas
+em (medida relativa ao tamanho da letra m maiúscula) ex (tamanho relativo à altura x da fonte)
+rem (igual ao em, porém relativa ao root, ou seja, que está configurada no body)
+vw (view width - largura da view port - a porcentagem da largura da tela)
+vh (view height - altura da view port - a porcentagem da altura da tela) % (porcentagem)
+Nas medidas relativas o EM é o mais indicado.
+
+Importamte: 16px é igual a 1em
+*/
+
+/*
+font-size = tamanho (px - em)
+font-weight = peso (lighter - normal - bold - bolder - de 100 até 900)
+font-style = estilo (normal - italic)
+text-decoration = sublinhado (underline)
+
+Um exemplo de combinação: SHORTHAND
+font-family: 'Work Sans', sans-serif;
+font-weight: bolder;
+font-size: 3em;
+font-style: italic;
+
+A SHORTHAND ficaria, neste exemplo, assim:
+IMPORTANTE ------ Sempre nesta ordem:
+font-style - font weight - font-size -font-family
+
+font: italic bolder 3em 'Work Sans', sans-serif;
+*/

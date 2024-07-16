@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(194, 173, 147);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: brown;
+    font-size: 30px;
+}
+
+h2#html {
+    text-align: center;
+}
+
+h3 {
+    color: forestgreen;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*
+Quando em HTML é ID, em CSS é #(tralha)
+Quando em HTML é CLASS, em CSS é .(ponto)
+*/
+
+/*
+Neste exemplo, somente um H2 cofiguramos para ser centralizado.
+*/
+
+/*
+A limitação do uso da ID é que podemos usar
+somente um em cada documento HTML, conforme regras
+do W3C.
+*/
+
+/*
+ID --- identificador de elementos
+Não pode ser repetido
+Importante para CSS e JS
+Somente para um elemento da página
+*/

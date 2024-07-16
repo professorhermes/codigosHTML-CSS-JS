@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos Hospedados Local</title>
+</head>
+
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="350px" poster="imagem/misica-gato.png" controls autoplay loop>
+        <source src="videos/barcos.mp4" type="video/mp4">
+        <source src="videos/borboletas.webm" type="video/webm">
+        <source src="videos/cigarra.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <hr>
+        <p>O argumento POSTER é para que quando se atualiza o vídeo ele coloca uma imagem que selecionamos previamente. É uma opção elegante.</p>
+        <p>A ordem é sempre de cima para baixo. Se não carrega o primeiro, tenta o de baixo etc.</p>
+        <p>Se nenhum for compatível com o navegador ele dará a mensagem do parágrafo abaixo.</p>
+        <p>Podemos colocar vários formatos do MESMO vídeo para que se possível possa ser executado em qualquer navegador. Pode-se colocar também vídeos diferentes se não houver obrigatoriedade de um determinado vídeo.</p>
+        <p>AUTOPLAY e LOOP são opcionais.</p>
+        <hr>
+        <p>ATENÇÃO: VÍDEOS HOSPEDADOS LOCALMENTE NO SERVIDOR GERA UM CUSTO ELEVADO AO CLIENTE POR CAUSA DO TRÁFEGO DE BANDA, PRINCIPALMENTE SE FOR MUITO ACESSADO. SE O CLIENTE QUIZER PODE SER UTILIZADO VÍDEOS EXTERNOS.</p>
+</body>
+
+</html>

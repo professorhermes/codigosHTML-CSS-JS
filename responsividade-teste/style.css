@@ -1,0 +1,24 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    min-width: 250px;
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+}

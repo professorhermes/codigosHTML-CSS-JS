@@ -1,0 +1,18 @@
+* {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(37, 4, 4), rgb(255, 0, 119), rgb(2, 27, 26));
+}
+
+/* pode ser para DIREITA (TO RIGHT), ESQUERDA (TO LEFT), CIMA (TO TOP), BAIXO (TO BOTTON)B*/
+/* pode usar várias cores */
+
+/*
+body {
+    background-image: radial-gradiente(circle, e especificar as cores);
+}
+
+ No exemplo RADIAL o gradiente será circular 
+*/

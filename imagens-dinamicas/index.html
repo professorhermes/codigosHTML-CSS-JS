@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias Dinâmicas</title>
+</head>
+
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Vamos abrir este site em vários dispositivos de tamanhos diferentes e ainda aumentar e diminuir o tamanho do navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-media.png" type="image/png">
+        <img src="imagens/foto-grande.png" alt="Imagem flexível">
+    </picture>
+
+    <p>O(s) SOURCE sempre deve(m) ficar acima da IMG.</p>
+    <p>A ordem de tamanho das medias é da maior para a menor e debaixo para cima.</p>
+    <p>Tudo dempre da tag PICTURE</p>
+    
+</body>
+
+</html>

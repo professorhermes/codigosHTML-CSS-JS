@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibição/Formatação-Fontes/Citações</title>
+</head>
+
+<body>
+    <h1>Exibição/Formatação de Fontes e Citações</h1>
+
+    <h2>Fontes</h2>
+
+    <p>Modificando uma fonte que não é mono-espaçada, ou seja, cada caracter não tem o mesmo espaço. Para ajustar esses espaços, quando necessário, formatamos com a tag CODE.</p>
+    <p>Sem a tag CODE: document.getElementById('teste')</p>
+    <p>Com a tag CODE: <code>document.getElementById('teste')</code></p>
+    <hr>
+    <p>Se, por exemplo, num código, só usarmos a tag CODE ela desorganiza a IDENTAÇÂO.</p>
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é par')
+        else:
+            print(f'O número {num} é impar')
+        print('Fim do programa')
+    </code>
+
+    <p>Para preservar a identação devemos envelopar tudo dentro da tag PRE. </p>
+    
+    <pre>
+        <code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0:
+                print(f'O número {num} é par')
+            else:
+                print(f'O número {num} é impar')
+            print('Fim do programa')
+        </code>
+    </pre>
+
+    <p>Se o código ficou muito para frente, podemos tabulá-lo para trás (SHIFT+TAB)</p>
+
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é par')
+    else:
+        print(f'O número {num} é impar')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <hr>
+
+    <h2>Citações Simples</h2>
+
+    <p>Dizemos que tudo "o Freud explica". Aqui temos somente a citação como FORMA, não há SEMÂNTICA.</p>
+    <p>O correto é usarmos as citações com SEMÂNTICA. Para isso a tag é Q (quote)</p>
+    <p>Dizemos que tudo <q>o Freud explica</q>.</p>
+    <p>Quando for uma citação sem importância, usa-se aspas apenas.</p>
+    <hr>
+
+    <h2>Citações Completas</h2>
+
+    <p>Segundo fulano de tal, no seu livro Blá-blá-blá:</p>
+    <blockquote cite="https:// etc. etc.">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti exercitationem ad similique sint necessitatibus officiis aperiam eius amet perspiciatis hic sunt ea repellat, molestiae dolorum ratione dolorem? Repudiandae, enim laborum.
+    </blockquote>
+    <p>No exemplo acima, usamos a tag SEMÂNTICA BLOCKQUOTE, que inclusive dá um destaque com avanço para frente da citação. Além disso, acrescentamos o parâmetro CITE para indicar a fonte.</p>
+    <hr>
+
+    <h2>Abreviações</h2>
+
+    <p>Estou estudando HTML e CSS.</p>
+    <p>Se quizermos dar o significado às abreviações, utilizamos a tag ABBR (abreviação).</p>
+    <p>Exemplo: Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+    <p>Desta maneira, quando o mouse passar sobre a sigla/abreviação, aparecerá escrito o significado.</p>
+    <hr>
+</body>
+
+</html>

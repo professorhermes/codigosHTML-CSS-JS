@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Variáveis</title>
+    <title>Variáveis - Tipos de Dados</title>
 
     <style>
         body {
@@ -20,21 +20,20 @@
 
 <body>
     <h1>Variáveis</h1>
-    <p>Pergunta o nome, recebe o nome e dá uma mensagem.</p>
+    <p>Tipos de Dados - Formatação de Strings - Templates strings.</p>
 
     <script>
-        var nome = window.prompt('Qual é seu nome?') // vai perguntar o nome
-        window.alert('É um grande prazer em te conhecer, ' + nome + '!') // o + significa concatenação
-        // atualmente se usa: window.alert(`È um grande prazer em te conhecer ${nome}!`)
+        var nome = window.prompt('Qual é o seu nome?')
+        document.write(`Olá, ${nome} !`)
         /*
         TEMPLATES STRINGS - formatação de strings
         Deve ser entre CRASES
         usa-se o PLACE HOLDER, ou seja, ${} (cifrão e chaves)
         Ex.: como no comentário acima.
-        -----------------------
+
         Ex. para mostrar a diferença:
         'O aluno ' + nome + ' com ' + idade + ' anos tirou a nota ' + nota'
-        `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`// mais simples e fácil de codificar
+        `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`// mais simples, menor e fácil de codificar
         */
     </script>
     

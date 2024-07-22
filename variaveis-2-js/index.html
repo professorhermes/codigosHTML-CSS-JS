@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Variáveis - Tipos de Dados</title>
+
+    <style>
+        body {
+            background-color: yellowgreen;
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Variáveis</h1>
+    <p>Adição - Tipos de Dados - Números Inteiros e Reais.</p>
+
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s)
+        // atualmente se usa: window.alert(`A soma dos valores é: ${s}`)
+        /*
+        TEMPLATES STRINGS - formatação de strings
+        Deve ser entre CRASES
+        usa-se o PLACE HOLDER, ou seja, ${} (cifrão e chaves)
+        Ex.: como no comentário acima.
+
+        Ex. para mostrar a diferença:
+        'O aluno ' + nome + ' com ' + idade + ' anos tirou a nota ' + nota'
+        `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`// mais simples e fácil de codificar
+        */
+    </script>
+    
+</body>
+
+</html>
+
+<!--
+        ---------------------------------------------------------------------------
+        No exemplo abaixo será considerado números INTEIROS.
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s)
+
+        No exemplo abaixo será considerado números REAIS.
+        var n1 = Number.parseFloat(window.prompt('Digite um número: '))
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s)
+
+        Atualmente o Js usa só NUMBER e ele sabe (decide) se é REAL ou INTEIRO.
+        Porém, as vezes necessitamos especificar se é REAL ou INTEIRO.
+        No exemplo abaixo será considerado tanto números INTEIROS como REAIS.
+        Para isso usa-se somente NUMBER.
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s)
+
+        --------------------------------------------------------------------------
+
+        Number.parseInt
+        - número inteiro (ex.: 5)
+        - Int = inteiro
+        - parse = converte
+
+        Number.parseFloat
+        - número real (ex.: 7.2)
+        - Float = real
+        - parse = converte
+
+        ---- as letras N e I são sempre maiúsculas
+        ---- o sinal + (mais) significa concatenação
+
+        --------------------------------------------------------------------------
+    -->

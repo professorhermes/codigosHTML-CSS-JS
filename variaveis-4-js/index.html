@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis</title>
+
+    <style>
+        body {
+            font: normal 24pt Arial;
+            color: chartreuse;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Variáveis</h1>
+    <p>Quantidade de caracteres LENGTH<br></p>
+    <p>Converte para maiúsculas TOUPPERCASE<br></p>
+    <p>Converte para minúsculas TOLOWERCASE</p>
+
+    <script>
+        var nome = window.prompt('Qual é o seu nome?')
+        document.write(`Olá, <strong>${nome}</strong> ! Seu nome tem ${nome.length} letras.<br>`)
+        document.write(`Seu nome em maiúsculas é <em>${nome.toUpperCase()}</em><br>`)
+        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}`)
+    </script>
+</body>
+
+<!--
+s.length = quantos caracteres a string tem
+s.toUpperCase() = converte tudo para maiúsculas
+s.toLowerCase() = converte tudo para minúsculas
+
+WINDOW.ALERT ----- mostra no monitor e desaparece
+WINDOW.WRITE ----- mostra no momitor e permanece
+-->
+
+</html>

@@ -11,6 +11,14 @@
 <body>
     <h1>Formatação de Números</h1>
     <p>Algumas formatações de números.</p>
+
+    <script>
+        var valor = 1545.5
+        document.write(`${valor}<br>`)
+        document.write(`${valor.toFixed(2)}<br>`)
+        document.write(`${valor.toFixed(2).replace('.', ',')}<br>`)
+        document.write(`${valor.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+    </script>
     
 </body>
 

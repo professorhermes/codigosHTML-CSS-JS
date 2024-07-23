@@ -1,0 +1,47 @@
+body {
+    /*
+    height: 100vh;
+    background-color: black;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    SHORTHAND
+    Sequência: COLOR - IMAGE - POSITION - REPEAT - SIZE - ATTACHMENT
+    No caso deste site fica assim:display;
+    background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+    
+    Nota: embora nos manuais conste o SIZE (na sequência) como regra atualiada,
+    ainda não funciona na presente data. Então, presentemente, a solução é tirar
+    o SIZE da sequência do shorthand e colocá-lo à parte, como exemplificado abaixo.
+
+    Assim consta na atual regra, mas não funciona ainda:
+    height: 100vh;
+    background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+    Então, para contornar a situação, codificamos, abaixo, assim:
+    */
+    height: 100vh;
+    background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+main {
+    background-color: white;
+    max-width: 600px;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bolder;
+}
+
+p {
+    text-align: justify;
+}

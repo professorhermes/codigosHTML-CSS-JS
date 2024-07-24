@@ -1,0 +1,12 @@
+#container {
+    height: 70vh;
+    padding: 10px;
+    background-color: blue;
+}
+
+#conteudo {
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    margin: auto;
+}

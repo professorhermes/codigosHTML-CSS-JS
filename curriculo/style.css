@@ -10,22 +10,21 @@ header {
     color: white;
 }
 
+header > .gato {
+    width: 150px;
+    height: 150px;
+    padding-bottom: 5%;
+}
+
 header > h1 {
     text-align: center;
+    font-size: 3.5em;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 30px;
     padding-bottom: 20px;
 }
 
-header .foto-perfil {
-    border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
-    margin-left: 265px;
-    border: 1px solid black;
-}
-
- html, body {
+html, body {
     min-height: 100vh;
     background-color: wheat;
 }
@@ -33,14 +32,20 @@ header .foto-perfil {
 section {
     padding-left: 50px;
     padding-top: 50px;
+    font-size: 28px;
+}
+
+section .inf-cont {
+    margin-left: 50px;
 }
 
 section > p {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 2em;
+    line-height: 1.5em;
     padding-bottom: 10px;
     margin-right: 15px;
+    font-size: 24px;
 }
 
 footer {

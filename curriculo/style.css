@@ -19,9 +19,10 @@ header > h1 {
     padding-bottom: 20px;
 }
 
-.gato {
-    margin: 50px;
+img {
     max-width: 500px;
+    border-radius: 100px;
+    padding: 50px;
 }
 
 body {

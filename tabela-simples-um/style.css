@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    /* text-align: center/right/left; alinhamentos horizontais */
+    /* vertical-align: top/botton/middle; alinhamentos verticais */
+}
+
+/*
+.numero {
+    text-align: right;
+}
+os números, por padrão, no excel, são automaticamente
+alinhados pela direita.
+no código, não é automático; devemos indicar com uma
+classe no CSS e indicá-la no HTML.
+*/

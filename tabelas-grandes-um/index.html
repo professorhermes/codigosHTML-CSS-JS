@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Uso de Tabelas Grandes Semânticas</h1>
+    <h2>Tabelas grandes, semânticas, com CAPTION e ESCOPO.</h2>
+
+    <table>
+        <caption>População de três Unidades Federativas do Brasil</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" class="pop">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.000.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.000.000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.000.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num"><strong>83.000.000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+
+</html>
+
+<!--
+ANATOMIA PARA TABELAS GRANDES
+TABLE
+    CAPTION (LEGENDA)
+    THEAD
+        TR TD TH
+    TBODY
+        TR TD TH
+    TFOOT
+        TR TD TH
+------------------------------
+SCOPE='COL' é para indicar semanticamente que 
+se trata de um título de coluna. Os dados estão
+embaixo do título.
+
+SCOPE='ROW' é para indicar semanticamente que
+se trata de um título na mesma coluna. Os dados
+estão ao lado do título.
+
+A importância dos SCOPES é para que os mecanismos
+de buscas tenham melhor acesso aos dados e sentido.
+-->

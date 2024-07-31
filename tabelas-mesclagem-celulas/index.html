@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela - Mesclagem de Células</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Construção de uma Tabela com Mesclagem de Células</h1>
+
+    <table>
+        <tr> <!-- Primeira linha-->
+            <td>a1</td>
+            <td>b1</td>
+            <td colspan="2">c1</td>
+        </tr>
+        <tr>
+            <td>a2</td>
+            <td>b2</td>
+            <td>c2</td>
+            <td rowspan="2">d2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">a3</td>
+            <td>b3</td>
+            <td>c3</td>
+        </tr>
+        <tr>
+            <td>b4</td>
+            <td>c4</td>
+            <td>d4</td>
+        </tr>
+    </table>
+    
+</body>
+
+</html>
+
+<!--
+COLSPAM --- expansão de coluna
+ROWSPAN --- expansão de linha
+-->

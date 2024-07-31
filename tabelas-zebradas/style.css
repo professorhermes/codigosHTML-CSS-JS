@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+caption {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+thead, tfoot {
+    background-color: gray;
+    color: white;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+td.num {
+    text-align: right;
+}
+
+th.pop {
+    width: 50px;
+}
+
+/*
+tbody > tr:nth-child(odd) ---> odd = ímpar (coloca a cor nas ímpares)
+tbody > tr:nth-child(2n) ---> de 2 em 2 coloca a cor
+tbody > tr:nth-child(3n) ---> de 3 em 3 coloca a cor (pode-se por 4, 5, 6 etc.)
+tbody > tr:nth-child(even) ---> even = par (coloca a cor nas pares)
+
+Se quizermos 2 cores e/ou fonte diferentes etc.:
+    tbody > tr:nth-child(odd) e um background-color: cor x ---- font... etc.
+    tbody > tr:nth-child(even) e um background-color: cor y ---- font... etc.
+*/

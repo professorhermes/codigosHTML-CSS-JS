@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframe</title>
+</head>
+
+<body>
+    <h1>Testes de uso de um IFRAME</h1>
+    <p>Acessando o site do Cursoemvideo.</p>
+    <p>O iframe é um quadro em linha.</p>
+    <p>Nem todos os sites permitem serem configurados para aparecer por iframe (bloqueiam).</p>
+    <p>O tamanho padrão do iframe é 300x150 px., como no primeiro exemplo.</p> 
+    <p>Podemos modificar o tamanho usando uma configuração local, como no 2º ex. abaixo. A configuração pode ser feita no CSS, como exemplificado nocs comentários, abaixo.</p>
+
+    <p>Acessando o site do <iframe src="https://www.cursoemvideo.com" frameborder="0"><a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a></iframe> para aprender a programar.</p>
+
+    <p>O repositório do G. Guanabara <iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500">no <a href="https://gustavoguanabara.gihub.io" target="_blank">Github</a></iframe> é bem legal!</p>
+</body>
+
+</html>
+
+<!--
+Nos exemplos acima, primeiro foi codificado o IFRAME e após o A HREF
+para que se aquele não for disponível este o seja.
+
+iframe {
+    width: x;
+    height: x;
+    border: x;
+}
+
+FRAMEBORDER é 0 ou 1: 0 = sem borda; 1 = com borda (1px somente)
+Se for necessário outros tamanhos de borda, usa-se o CSS (BORDER: x;),
+como no exemplo acima, nos comentários.
+-->

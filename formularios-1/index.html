@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Um primeiro formulário.</h1>
+
+    <form 
+        action="cadastro.php" method="get" autocomplete="off">
+        <p><label for="inome">Nome:</label><input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label><input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>    
+</body>
+
+</html>
+
+<!--
+- cadastro.php é p/onde enviamos os dados (PHP, JS etc.)
+- autocomplete="off" é se ñ quizermos o autocomplete do texto sendo digitado
+- o NAME é mais útil ao PHP
+- o ID é mais útil ao JS e HTML
+- envelopamos com LABEL para associar a PALAVRA ao OBJETO (no exemplo acima,
+  o NOME e SOBRENOME ao que vai ser digitado (objeto))
+-----------------------------------------------------------------------------
+Há dois métodos no envio de dados de formulários:
+    GET que é o padrão (não é necessário incluir o parâmetro, pois
+    ele o assume automaticamente). É o método no qual aparecem os dados
+    no navegador, em cima, na URL.
+
+    POST que é o método no qual não aparecem os dados no navegador,
+    em cima, na URL, porém são visíveis no INSPECIONAR (ferramentas
+    do desenvolvedor) dos navegadores. A codificação é a seguinte:
+            METHOD="GET" ou METHOD="POST"
+    Quando usar um método ou outro? GET quando é envio de dados sem importância
+    tipo pesquisa no google ou dados pessoais irrelevantes. POST quando é envio
+    de dados mais relevantes tipo documentação etc.
+    Há, entretanto, algumas situações que exigem o método POST: por
+    exemplo, envio de fotos, textos muito grandes etc.
+-----------------------------------------------------------------------------
+    
+    -->
